@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\estudio\Python\Curso-PY-platzi-FastAPI\my-ferreteria-api\env"
+VIRTUAL_ENV="F:\PLATZI\2023\Python\Curso-FastApi\FastAPI\my-ferreteria-api\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

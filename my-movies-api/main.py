@@ -21,7 +21,7 @@ class JWTBeaver(HTTPBearer):
     async def __call__(self, request: Request):
         auth = await super().__call__(request)
         data = validate_token(auth.credentials)
-        if data["email"] != "jparedesy@gmail.com":
+        if data["email"] != "mipelicula@gmail.com":
             raise HTTPException(status_code=403, detail="Credenciales inválidas")
 
 
@@ -78,7 +78,7 @@ def message():
 
 @app.post("/login", tags=["auth"])
 def login(user: User):
-    if user.email == "jparedesy@gmail.com" and user.password == "admin":
+    if user.email == "mipelicula@gmail.com" and user.password == "admin":
         token: str = create_token(user.dict())
         return JSONResponse(content=token)
 

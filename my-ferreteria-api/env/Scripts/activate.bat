@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\estudio\Python\Curso-PY-platzi-FastAPI\my-ferreteria-api\env
+set VIRTUAL_ENV=F:\PLATZI\2023\Python\Curso-FastApi\FastAPI\my-ferreteria-api\env
 
 if not defined PROMPT set PROMPT=$P$G
 
